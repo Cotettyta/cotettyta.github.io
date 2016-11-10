@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*menú*/
+.container-fluid{
+	height: 80px;
+	width: 100%;
+	background-color: green;
+}
+nav{
+	padding-top: 25px;
+}
+nav.menu a {
+	color: white;
+	text-decoration: none;
+	padding-top: 25px;
+}
+
+ li{
+	text-decoration: none;
+	display: inline;
+	margin: 5px;
+	padding-top: 25px;
+}
+
+/*header*/
