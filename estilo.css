@@ -2,26 +2,406 @@
 	padding: 0;
 	margin: 0;
 }
+/*aqui esta la marca*/
+.navbar-default .navbar-brand {
+    color:white;
+    font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    padding-left: 50px;
+
+}
+.navbar-default .navbar-brand:hover{
+	color:#DE7536;
+}
+
 /*menú*/
 .container-fluid{
 	height: 80px;
 	width: 100%;
-	background-color: green;
-}
-nav{
-	padding-top: 25px;
-}
-nav.menu a {
-	color: white;
-	text-decoration: none;
-	padding-top: 25px;
+	background-color: #00796B;
 }
 
- li{
+.navbar-default .navbar-nav>li>a {
+     color: #fff;
+     font-family: sans-serif;
+     font-size: 15px;
+     border-radius: 10px;
+     background-color: rgba(0, 121, 107,.9);
+     position: relative;
+     display: block;
+     padding-right: 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+     background-color: #B2DFDB;
+     color: #009688;
+     border-radius:10px;
+     
+}
+.navbar-nav>li>a {
+    padding-top: 25px;
+    padding-bottom: 23px;
+}
+.navbar{
+	border:0;
+	margin-bottom: 0;
+}
+
+nav.navbar-collapse {
+	background-color: #009688;
+	color: white;
+	text-decoration: none;
+}
+a{
 	text-decoration: none;
 	display: inline;
 	margin: 5px;
 	padding-top: 25px;
 }
 
+@media (max-width: 768px){
+	.navbar-nav>li>a {
+	 	width: 100%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.navbar-nav>li>a {
+	 	width: 100%;
+	}
+}
+/*aqui empieza el menu toggle*/
+
+.navbar-default .navbar-toggle{
+	background-color: white;
+	border-color: #B2DFDB;
+}
+.navbar-default .navbar-toggle:hover{
+	background-color:#B2DFDB;
+	border-color: white;
+}
+.navbar-toggle{
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 20px;
+	margin-right: 30px;
+
+}
+
 /*header*/
+header{
+	background-image: url("imagen/maxresdefault.png");
+	background-position: center;
+	height: 680px;
+	text-align: center;
+	width: 100%;
+	background-repeat: no-repeat;
+
+}
+header:hover{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    -webkit-animation: immortalkenburns 20000ms linear 0s infinite alternate;
+    animation: immortalkenburns 20000ms linear 0s infinite alternate;
+
+}
+@media screen and (max-width: 1000px){
+
+	header, header{
+    background-attachment: fixed;
+    background-position: center;
+}
+}
+/* aqui va el texto en header*/
+.intro-leal-in{
+	padding-top: 250px;
+	margin-left: 120px;
+	text-align: left;
+	font-size: 20px;
+	font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #DE7536;
+}
+.intro-heading{
+	text-align: left;
+	font-size: 15px;
+	margin-left: 120px;
+
+}
+
+
+
+/* QUIENES SOMOS */
+h1{
+	font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+	color: #DE7536;
+	padding-top: 20px;
+
+}
+
+h3{
+	font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+section#quienes-somos{
+	margin-right: auto;
+	margin-left: auto; 
+	text-align: center;
+}
+
+.img-fondo{
+	background-image: url("imagen/mandala.jpg");
+	background-position: center;
+	background-repeat: space;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100%;
+	width:100%;
+} /*aqui deberia ir una foto*/
+
+#container-somos{
+	width: 100%;
+	height: 750px;
+}
+@media (min-width: 992px){
+	.col-md-6 {
+	    width: 50%;
+	    float: left;
+	}
+	#container-somos{
+	width: 100%;
+	}
+}
+i.text-primary{
+	color: #009688;
+}
+.fa-stack-1x, .fa-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: inherit;
+}
+.col-lg-12{
+	padding-top: 40px;
+	text-align: center;
+}
+.col-md-6{
+	padding-top: 80px;
+	padding: 30px;
+	text-align: center;
+}
+h4{
+	font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+	color: #333;
+	padding-top: 30px;
+}
+h4:hover{
+	font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+	color: #DE7536;
+	padding-top: 30px;
+}
+p.text-mutedd{
+	text-align: center center;
+	margin: 20px;
+	padding: 6px;
+	font-size: 20px;
+	position: relative;
+}
+hr{
+	margin: 0;
+	padding: 0;
+}
+/*MASAJES*/
+
+
+.container-masajes{
+	background-color:#009688;
+
+	height: 1050px;
+	width: 100%;
+}
+.sin-padding {
+    padding: 20px;
+}
+section.masajes{
+	text-align: center;
+	color: white;
+	padding-top: 55px;
+}
+h1.nombre{
+	font-size: 35px;
+	font-family: 'kaushan Script';
+	font-weight: 400;
+	padding-top: 20px;
+	color: white;
+}
+h2.nombre{
+	font-size: 25px;
+	font-family: 'kaushan Script';
+	font-weight: 400;
+	padding-top: 150px;
+
+}
+h2.nombre:hover{
+	font-size: 25px;
+	font-family: 'kaushan Script';
+	font-weight: 400;
+	color: white;
+	padding-top: 150px;
+
+}
+article.col-lg-4, .col-md-6 .col-sm-6 .col-xs-12 .sin-paddings{
+	
+	width: 450px;
+	padding: -20px;
+	margin: -10px;
+	text-align: center;
+	background-position: center;
+}
+.sin-paddings{
+	padding: 15px;
+}
+.imagenes-masajes{
+	margin-left: 60px;
+	font-family: 'kaushan Script';
+	padding: 5px;
+}
+.img-responsive{
+	display: inline-block;
+	border:5px solid white;
+}
+img.img-responsive{
+	padding: 5px;
+}
+/* imagenes destinos zoom */
+.zoom-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 16px;
+  font-size: 1rem;
+  vertical-align: top;
+  }
+
+.zoom-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: all .5s ease;
+  /* Safari and Chrome */
+  -moz-transition: all .5s ease;
+  /* Firefox */
+  -ms-transition: all .5s ease;
+  /* IE 9 */
+  -o-transition: all .5s ease;
+  /* Opera */
+  transition: all .5s ease; 
+}
+
+.zoom-container .zoom-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  -webkit-transition: all .5s ease;
+  /* Safari and Chrome */
+  -moz-transition: all .5s ease;
+  /* Firefox */
+  -ms-transition: all .5s ease;
+  /* IE 9 */
+  -o-transition: all .5s ease;
+  /* Opera */
+  transition: all .5s ease; }
+  .zoom-container .zoom-caption h3, .zoom-container .zoom-caption button {
+    display: none; 
+}
+
+.zoom-container .zoom-caption:hover h3 {
+  text-align: center;
+  font-size: 4.8em;
+  font-weight: 900;
+  color: #fff;
+  margin: 25% 0 0;
+  padding: 10px 0;
+  display: block; 
+}
+.zoom-container .zoom-caption:hover button {
+  border: 2px solid #FFF;
+  background-color: transparent;
+  color: #FFF;
+  padding: 5px;
+  font-size: 2.5em;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto; 
+}
+.zoom-container .zoom-caption:hover a {
+  text-decoration: none;
+  color: #FFF; 
+}
+
+.zoom-container:hover img {
+  -webkit-transform: scale(1.25);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.25);
+  /* Firefox */
+  -ms-transform: scale(1.25);
+  /* IE 9 */
+  -o-transform: scale(1.25);
+  /* Opera */
+  transform: scale(1.25); 
+}
+
+.zoom-container:hover .zoom-caption {
+  background-color: rgba(14, 154, 155, 0.5); 
+}
+
+.accordion {
+  overflow: hidden; 
+}
+  .accordion .ion-arrow-down-b {
+    padding-left: 5px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
