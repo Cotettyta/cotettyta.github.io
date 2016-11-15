@@ -91,7 +91,7 @@ a{
 }
 
 /*header*/
-header{
+header.container-fluid{
 	background-image: url("imagen/maxresdefault.png");
 	background-position: center;
 	height: 680px;
@@ -290,7 +290,7 @@ article.col-lg-4, .col-md-6 .col-sm-6 .col-xs-12 .sin-paddings{
 img.img-responsive{
 	padding: 5px;
 }
-/* imagenes destinos zoom */
+/* imagenes masajes zoom */
 .zoom-container {
   position: relative;
   overflow: hidden;
@@ -379,29 +379,136 @@ img.img-responsive{
 .accordion {
   overflow: hidden; 
 }
-  .accordion .ion-arrow-down-b {
+.accordion .ion-arrow-down-b {
     padding-left: 5px; 
 }
 
 
+section#terapias{
+	height: 600px;
+	background-color: white;
+}
+h2.tittle{
+	font-size: 30px;
+	font-family: 'kaushan Script';
+	font-weight: 400;
+}
+
+
+/* CONTACTO*/
+
+
+section#contacto{
+	background-image: url("imagen/contacto.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #000811;
+	height: 700px;
+	width: 100%;
+}
+h2.section-heading-top{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+h3.section-subheading-top{
+	color: #ccc;
+	font-size: 15px;
+	font-family: cursive;
+	padding-bottom: 20px;
+	margin-bottom: 75px;
+}
+.btn-xl {
+    color: #fff;
+    background-color: #009688;
+    border-color: #009688;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 20px 40px;
+    box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.44);
+}
+.btn-xl:hover {
+    color: white;
+    background-color: #009688;
+    border-color: #009688;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 20px 40px;
+    box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.44);
+}
+section#contacto .form-group input.form-control {
+    margin-bottom: 25px;
+    height: auto;
+    box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.44);
+}
+
+
+section#contacto .text-danger {
+    color: #e74c3c;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+.text-danger {
+    color: #a94442;
+}
+section#contacto .form-group textarea.form-control {
+    height: 236px;
+    box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.44);
+}
+
+section#contacto .form-group input, section#contact .form-group textarea {
+    padding: 20px;
+}
+textarea.form-control {
+    height: auto;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+footer span.copyright {
+    line-height: 40px;
+    text-transform: uppercase;
+    text-transform: none;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ul.list-inline .quicklinks li a {
+    display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
 
