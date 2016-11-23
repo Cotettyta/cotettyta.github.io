@@ -8,7 +8,7 @@
     font-family: 'kaushan Script';
     font-weight: 400;
     font-style: normal;
-    font-size: 35px;
+    font-size: 20px;
     padding-left: 50px;
 
 }
@@ -48,7 +48,9 @@
 	border:0;
 	margin-bottom: 0;
 }
-
+.navbar-right{
+  padding-right: 40px;
+}
 nav.navbar-collapse {
 	background-color: #009688;
 	color: white;
